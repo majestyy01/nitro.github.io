@@ -1,0 +1,124 @@
+﻿    <!DOCTYPE html>
+	<html lang="tr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Nitro Generator</title>
+		<link rel="shortcut icon" href="logo.png" />
+            <!--WoxicDEV - Mert Ali - 2024---> 
+            <!--Github majestyy01-->
+		<style>
+ @media (max-width: 500px) {
+            textarea {
+                height: 100px;
+            }
+            button {
+                background-color: #000;
+                cursor: pointer;
+                color: #f9f9f9;
+                font-family: Arial;
+                font-size: 50px;
+                padding: 50px 60px;
+                text-decoration: none;
+            }
+        }
+
+        .button0 {
+            font-size: 20px;
+            padding: 50px 60px;
+        }
+
+        body {
+            background-color: #fff; /* White background */
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        textarea {
+            background-color: #ffffff;
+            border: 1px solid #e8e6e6;
+            color: #000000; /* White text color */
+            padding: 8px;
+            font-family: courier new;
+            line-height: 1.25;
+            resize: none;
+        }
+
+        input {
+            background-color: #ffffff;
+            color: #000000; /* White text color */
+            border: 1px solid #e8e6e6;
+            padding: 7px 8px;
+        }
+
+        button {
+            color: #000000; /* Beyaz düğme metni */
+				border: none;
+				padding: 10px 20px;
+				border-radius: 5px; /* Yuvarlatılmış köşeler */
+				cursor: pointer;
+				font-size: 1em; /* Düğme metni boyutu */
+				margin: 5px; /* Düğmeler arasındaki boşluk */
+        }
+        .button:hover {
+				background-color: #0069d9; /* Üzerine gelindiğinde daha koyu mavi */
+			}
+
+        button:active {
+            position: relative;
+            top: 1px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            color: #333; /* Dark gray text color */
+        }
+
+        p {
+            color: #333; /* Dark gray text color */
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff; /* Blue link color */
+            text-decoration: none;
+        }
+		</style>
+	</head>
+	<body>
+		<center class="container">
+			<h1>Discord Nitro Generator by WoxicDEV</h1>
+			<textarea id="a" rows="11" cols="100" readonly="" style="resize: none;">
+				Kullandığın için teşekkürler
+	
+				<―――――――――――――――――――――――――――――――――――――――>
+				- BİLGİ: Discord Kod Üretici
+				- BİLGİ: Discord Kodları Burada!
+				- BİLGİ: Çoğu Kod Çalışmıyor!
+				<―――――――――――――――――――――――――――――――――――――――>
+			</textarea>
+			<p></p>
+			<a href="index0.html">Dilediğin kadar Nitro üretmek mi istiyorsun? Bana tıkla!</a>
+			<p></p>
+			<p>Bir saniyede kaç adet kod üretmek istersin?</p>
+			<input type="text" id="speed" value="5">
+			<p></p>
+			<button id='generate' class="button">
+				Üretmeye Başla!
+			</button>
+			<button id='stop' class="button">
+				Üretmeyi Durdur
+			</button>
+			<p></p>
+			<button id='save' onclick="var rows = document.getElementById('b').value.split('\n').length -  1; download(rows + ' WoxicDEV.txt', 'WoxicDEV\n\n' + document.getElementById('b').value + '\n	WoxicDEV\n + Kodların çoğu çalışmıyor proje arttırmak için yapılmıştır')" class="button">Kodları Kaydet!</button>
+			<textarea style="display: none;" id="b" rows="11" cols="100" readonly="">
+			</textarea>
+				<script src="main.js"></script>
+			</center>
+			</body>
+			<footer>
+			
+			</footer>
+			</html>
